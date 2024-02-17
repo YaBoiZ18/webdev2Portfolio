@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+	--color-bg: #222;
+  --color-text: #fcfcfc;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: .75rem;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+h1 {
+    color: tomato;
+}
+
+p {
+    line-height: 1.75;
+}
+
+footer {
+    text-align: center;
+    color: tomato;
+}
+  
+header{
+    padding-top: 2rem;
+    padding-bottom: .1rem;
+}
+
+img{
+    opacity: 0;
+    animation: bigger ease 3s;
+    animation: appear ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+
+}
+
+@keyframes bigger {
+    0% {
+        opacity: 0;
+
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+h3{
+    text-align: center;
+    opacity: 0;
+    animation: appear ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+
+@keyframes appear{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+section:first-child{
+    animation: mymove ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+
+@keyframes mymove {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        padding-bottom: 0px;
+    }
+}
+
+
+
+section:last-child{
+    opacity: 0;
+}
+
+section:last-child {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 10px;
+        opacity: 1;
+    }
+}
