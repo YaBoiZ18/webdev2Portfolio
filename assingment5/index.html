@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>A Changeable Website</title>
+</head>
+
+<body>
+    <header>
+        <h1>The First One</h1>
+        <h2>This website is about The First One</h2>
+    </header>
+
+    <main>
+        <p>The First One emerged from the tumultuous depths of the divine realm, a being wrought with raw power and untamed chaos. Crafted by the gods in their ambitious fervor, it was intended to be a symbol of their might and ingenuity. However, as The First One took shape, its essence proved to be too volatile, too unpredictable to be contained within the orderly confines of creation. Cast out from the divine realm, The First One roamed the cosmos, a harbinger of destruction driven by its insatiable hunger to undo the very fabric of existence. It saw the world not as a marvel to be revered, but as a blight, a plague that needed to be eradicated.</p>
+
+        <p>With every step it took, The First One left behind a trail of devastation, tearing through galaxies and rending apart celestial bodies with reckless abandon. Its mission was singular: to unravel the intricate tapestry of creation, to return everything to the primordial void from whence it came. Yet, amidst the chaos it wrought, whispers of resistance began to stir. Champions arose from the depths of mortal realms, wielding great power in a desperate bid to halt The First One's rampage. The fate of existence hung in the balance as the cosmic struggle between creation and destruction reached its zenith.</p>
+
+        <p class="newtext">As the clash between creation and The First One rages on, uncertainty looms like a shadow over the cosmos. Heroes rise, wielding the power of creation against relentless chaos. But the outcome remains shrouded in mystery, leaving destiny as the sole arbiter of the universe's fate.</p>
+
+        <button>Click Me</button>
+
+        <figure><img src="The First One.png" alt="The First One" width="600" height="450"></figure>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zarin Hawthorne</p>
+    </footer>
+
+    <div class="grad"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('p.newtext').hide();
+
+            $('button').click(function() {
+                $('p.newtext').fadeIn(2000);
+
+                $('body').addClass('newbody');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

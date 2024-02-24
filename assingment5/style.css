@@ -1,0 +1,62 @@
+body {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: .75rem;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    line-height: 1.75;
+    padding-top: .1rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 2rem;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+}
+  
+header{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    background-color: #000000;
+    text-align: center;
+}
+
+image{
+    margin: auto;
+}
+
+figure{
+    position: relative;
+}
+
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.newbody{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 82px rgb(0, 128, 255),
+        0 0 151px #0fa;
+
+    background-image: linear-gradient(to right,rgb(34,38,130), rgb(13, 16, 71));
+
+    font-family: 'league_spartanbold';
+}
