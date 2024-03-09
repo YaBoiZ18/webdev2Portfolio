@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Lego Manifesto</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <Header>
+            <h1>My Lego Manifesto</h1>
+            <h2>By: Zarin Hawthorne</h2>
+        </Header>
+    
+        <main>
+            <section id="one">
+                <p>Everyone is allowed to use Legos until your heart's contents</p>
+    
+                <div id="lego1"></div>
+            </section>
+    
+            <section id="two">
+                <p>Everyone remembers how it feels when you let your imagination go wild with Legos, I know I have</p>
+    
+                <div id="lego2"></div>
+            </section>
+    
+            <section id="three">
+                <p class="lego">Everyone has made that one huge Lego war scene that took time to make, I know I have</p>
+    
+                <div id="lego3"></div>
+            </section>
+
+            <section id="four">
+                <p>Everyone is allowed to collect Legos for nostalgia purposes or just because they like Legos, I know I have</p>
+            
+                <div id="lego4"></div>
+            </section>
+    
+            <section id="five">
+                <p>Everyone is allowed to express their ideas through Legos, whether it be a new project or a downtime thing, I know I have</p>
+    
+                <div id="lego5"></div>
+            </section>
+    
+            <section id="six">
+                <p>Everyone is allowed to have Legos!</p>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Zarin Hawthorne</p>
+        </footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function(){
+                var windowPosition = $(window).scrollTop();
+
+                if (windowPosition>2000) {
+                    $('section').addClass('tomato');
+
+                    $('body').addClass('backgroundChange');
+                }
+                else {
+                    $('section').removeClass('tomato');
+                    $('body').remove('backgroundChange');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

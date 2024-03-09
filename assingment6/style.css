@@ -1,0 +1,110 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(236, 83, 83);
+    color: rgb(221, 236, 56);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(236, 83, 83);
+    color: rgb(221, 236, 56);
+
+}
+
+body{
+    background-color: rgb(88, 87, 87);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0px;
+    padding: 0px;
+}
+
+#container{
+    height: 100%;
+}
+
+section{
+    background-color: rgb(236, 83, 83);
+    color: rgb(221, 236, 56);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    padding: .1rem;
+}
+
+#lego1, #lego2, #lego3, #lego4, #lego5{
+    height: 700px;
+
+}
+
+#lego1{
+    background:url(Building1.jpeg) no-repeat fixed center;
+    background-size: cover;
+}
+
+#lego2{
+    background:url(LegoWar1.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+#lego3{
+    background:url(LegoWar2.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+#lego4{
+    background:url(LegoSets.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+#lego5{
+    background:url(Voltron1.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes changes {
+    from{background: rgb(236, 83, 83);}
+    to{background: rgb(59, 59, 59);}
+
+    from{font-family: 'Courier New', Courier, monospace;}
+    to{font-family: 'league_spartanbold';}
+
+    from{color: rgb(221, 236, 56);}
+    to{color: rgb(48, 152, 232);}
+}
+
+.tomato{
+    animation: changes 1.5s;
+    animation-fill-mode: forwards;
+}

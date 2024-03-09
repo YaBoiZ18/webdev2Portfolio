@@ -5,8 +5,8 @@
 }
 
 :root {
-    --color-primary: hsl(206, 80%, 55%);
-    --color-bg: hsl(0, 0%, 23%);
+    --color-primary: rgb(48, 152, 232);
+    --color-bg: rgb(59, 59, 59);
     --color-accent: hsl(195, 51%, 72%);
     --color-accent-hover: hsl(195, 51%, 92%);
 
