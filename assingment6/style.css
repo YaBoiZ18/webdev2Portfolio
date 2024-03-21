@@ -43,6 +43,7 @@ hr {
 
 #container{
     height: 100%;
+    width: auto;
 }
 
 section{
