@@ -1,0 +1,73 @@
+
+body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+   
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
+
+/*body {
+	
+	
+}*/
+
+header{
+	background:#545454;
+	color:#19B3E4;
+	padding:10px;
+	text-align: center;
+}
+
+h2 {
+	margin-top:1px;
+}
+
+/*#container {
+	
+}*/
+section{
+    padding:10px;
+	text-align: center;
+    background:#545454;
+}
+
+div{
+    padding:10px;
+	text-align: center;
+}
+
+main{
+	padding:20px;
+		
+}
+
+p{
+	color:#19B3E4;
+	font-family: 'Mulish', sans-serif;
+}
+
+footer {
+	background:#545454;
+	color:#19B3E4;
+	padding:10px;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0px;
+    padding: 0px;
+}
