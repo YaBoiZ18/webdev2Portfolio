@@ -29,6 +29,7 @@ header{
 
 h2 {
 	margin-top:1px;
+	color:#19B3E4;
 }
 
 /*#container {
@@ -70,4 +71,16 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0px;
     padding: 0px;
+}
+
+button{
+	background-color: #6a6a6a;
+	color: #19B3E4;
+	width: 200px;
+	height: 50px;
+}
+
+.godzilla{
+	background-image: url(godzilla\(ai\).png);
+	background-size: cover;
 }
