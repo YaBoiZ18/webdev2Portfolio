@@ -1,7 +1,7 @@
 
 body {
 	margin:0px;
-	padding:10px;
+	padding:0px;
 	height:100%;
    
 }
@@ -19,6 +19,7 @@ html {
 	
 	
 }*/
+
 
 header{
 	background:#545454;
@@ -83,4 +84,13 @@ button{
 .godzilla{
 	background-image: url(godzilla\(ai\).png);
 	background-size: cover;
+}
+
+nav {
+	position: fixed;
+	padding: 10px;
+	top: 0;
+	font-size: 20px;
+	background:#545454;
+	width: 96%;
 }
