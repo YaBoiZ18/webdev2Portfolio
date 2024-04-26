@@ -21,7 +21,7 @@ html {
 
 header{
 	background:#545454;
-	color: #19B3E4;
+	color: #FF6347;
 	padding:10px;
 	text-align: center;
 }
@@ -31,7 +31,7 @@ h1 {
 }
 
 h3{
-    color: #19B3E4;
+    color: #FF6347;
 }
 
 /*#container {
@@ -45,14 +45,14 @@ main{
 }
 
 p{
-	color: #19B3E4;
+	color: #FF6347;
 	background:#545454;
 	font-family: 'Mulish', sans-serif;
 }
 
 footer {
 	background:#545454;
-	color: #19B3E4;
+	color: #FF6347;
 	padding:10px;
 	text-align: center;
 	font-family: 'EB Garamond', serif;
@@ -96,7 +96,7 @@ section{
 
 button{
 	background-color: #6a6a6a;
-	color: #19B3E4;
+	color: #FF6347;
 	width: 200px;
 	height: 50px;
 }

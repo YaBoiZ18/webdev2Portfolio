@@ -3,7 +3,7 @@ body {
 	margin:0px;
 	padding:0px;
 	height:100%;
-   
+	background-color: #545454;
 }
 
 html {
@@ -20,11 +20,15 @@ html {
 	
 }*/
 
+main{
+	background: url(GodzillavsAiZilla.png) no-repeat center;
+	background-size: cover;
+}
 
 header{
 	background:#545454;
 	color:#19B3E4;
-	padding:10px;
+	padding:5px;
 	text-align: center;
 }
 
@@ -37,9 +41,9 @@ h2 {
 	
 }*/
 section{
-    padding:10px;
+    padding:5px;
 	text-align: center;
-    background:#545454;
+    
 }
 
 div{
@@ -53,6 +57,7 @@ main{
 }
 
 p{
+	background:rgb(84, 84, 84, 0.7);
 	color:#19B3E4;
 	font-family: 'Mulish', sans-serif;
 }
@@ -60,7 +65,7 @@ p{
 footer {
 	background:#545454;
 	color:#19B3E4;
-	padding:10px;
+	padding:5px;
 	text-align: center;
 	font-family: 'EB Garamond', serif;
 }
@@ -81,10 +86,36 @@ button{
 	height: 50px;
 }
 
-.godzilla{
-	background-image: url(godzilla\(ai\).png);
-	background-size: cover;
+#button1{
+	color: #19B3E4;
 }
+
+#button2{
+	color: #FF6347;
+}
+
+#button3{
+	color: #FF0080;
+}
+
+/*.background{
+    height: 200%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 200%;
+    z-index: -1;
+}
+*/
+
+/*#godzilla{
+	background: url(GodzillavsAiZilla.png) no-repeat center;
+	background-size: inherit;
+	width: 600px;
+	height: 450px
+	
+}
+*/
 
 nav {
 	position: fixed;
@@ -94,3 +125,12 @@ nav {
 	background:#545454;
 	width: 96%;
 }
+
+#interview2{
+	color: #FF6347;
+}
+
+#interview3{
+	color: #FF0080;
+}
+
