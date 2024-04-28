@@ -2,6 +2,7 @@ body {
 	margin:0px;
 	padding:0px;
 	height:100%;
+	background:#545454;
 }
 
 html {
@@ -13,11 +14,6 @@ html {
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
 
-
-/*main{
-	background: url(godzilla\(ai\).png) no-repeat center;
-}
-*/
 
 header{
 	background:#545454;
@@ -41,12 +37,13 @@ h3{
 
 main{
 	padding:20px;
-		
+	background: url(GodzillavsAiZilla.png) no-repeat center;
+	background-size: contain;
 }
 
 p{
 	color: #FF6347;
-	background:#545454;
+	background:rgb(84, 84, 84, 0.7);
 	font-family: 'Mulish', sans-serif;
 }
 
@@ -99,4 +96,5 @@ button{
 	color: #FF6347;
 	width: 200px;
 	height: 50px;
+	border-radius: 12px;
 }
