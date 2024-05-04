@@ -101,3 +101,58 @@ button{
 	height: 50px;
 	border-radius: 12px;
 }
+
+.aiFusions{
+	float: left;
+	width: 100%;
+  	max-width: 450px;
+  	height: auto;
+	display: flex;
+	padding: 15px;
+	align-items: center;
+    justify-content: center;
+}
+
+
+.humFusions{
+	float: right;
+	width: 100%;
+  	max-width: 400px;
+  	height: auto;
+	display: flex;
+	padding: 15px;
+	align-items: center;
+    justify-content: center;
+}
+
+@media all and (min-width: 481px) {
+	
+	
+	
+	
+} /* closes 481px+ */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+#container {
+	width:725px;
+	margin:auto;
+}	
+	
+	
+} /* closes 769px+ */
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+#container {
+	width:950px;
+}	
+	
+	
+} /* closes 1024px+ */
