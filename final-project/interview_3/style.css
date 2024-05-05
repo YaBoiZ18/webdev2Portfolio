@@ -98,3 +98,56 @@ button{
 	height: 50px;
 	border-radius: 12px;
 }
+
+.humgarou{
+	float: right;
+	width: 100%;
+  	max-width: 330px;
+  	height: auto;
+	display: flex;
+	padding: 25px;
+}
+
+
+.aigarou{
+	float: left;
+	width: 100%;
+  	max-width: 400px;
+  	height: auto;
+	display: flex;
+	padding: 25px;
+}
+
+
+@media all and (min-width: 481px) {
+	
+	
+	
+	
+} /* closes 481px+ */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+#container {
+	width:725px;
+	margin:auto;
+}	
+	
+	
+} /* closes 769px+ */
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+#container {
+	width:950px;
+}	
+	
+	
+} /* closes 1024px+ */
+

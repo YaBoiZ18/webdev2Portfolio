@@ -39,9 +39,7 @@ h3{
 
 
 main{
-	padding:20px;
-	background: url(godzilla\(ai\).png) no-repeat center;
-	background-size: contain;
+	padding:40px;
 }
 
 p{
@@ -109,8 +107,6 @@ button{
   	height: auto;
 	display: flex;
 	padding: 15px;
-	align-items: center;
-    justify-content: center;
 }
 
 
@@ -121,8 +117,6 @@ button{
   	height: auto;
 	display: flex;
 	padding: 15px;
-	align-items: center;
-    justify-content: center;
 }
 
 @media all and (min-width: 481px) {
