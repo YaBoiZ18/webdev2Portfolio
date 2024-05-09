@@ -3,7 +3,7 @@ body {
 	margin:0px;
 	padding:0px;
 	height:100%;
-	background-color: #545454;
+	background: linear-gradient(to top right, #666699 10%, #ccffff 85%);
 }
 
 html {
@@ -15,16 +15,7 @@ html {
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
 
-/*body {
-	
-	
-}*/
 
-/*main{
-	background: url(GodzillavsAiZilla.png) no-repeat center;
-	background-size: contain;
-}
-*/
 
 header{
 	background:#545454;
@@ -58,7 +49,7 @@ main{
 }
 
 p{
-	background:rgb(84, 84, 84, 0.7);
+	background:rgb(84, 84, 84, 0.9);
 	color:#19B3E4;
 	font-family: 'Mulish', sans-serif;
 }
@@ -66,7 +57,7 @@ p{
 footer {
 	background:#545454;
 	color:#19B3E4;
-	padding:5px;
+	padding:10px;
 	text-align: center;
 	font-family: 'EB Garamond', serif;
 }

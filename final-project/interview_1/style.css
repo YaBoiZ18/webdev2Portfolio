@@ -2,7 +2,7 @@ body {
 	margin:0px;
 	padding:0px;
 	height:100%;
-	background:#545454;
+	background: linear-gradient(to top left, #0063b2 22%, #9cc3d5 66%);
 }
 
 html {
@@ -44,7 +44,7 @@ main{
 
 p{
 	color: #19B3E4;
-	background:rgb(84, 84, 84, 0.7);
+	background:rgb(84, 84, 84, 0.9);
 	font-family: 'Mulish', sans-serif;
 }
 
